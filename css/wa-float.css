@@ -1,0 +1,77 @@
+.vs-float-button {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 999
+}
+
+.vs-float-button .vs-float-whatsapp {
+    border-radius: 50%;
+    color: white;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease
+}
+
+.vs-float-button .vs-float-whatsapp:hover {
+    background: #5ccf54;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease
+}
+
+.vs-float-button .vs-float-whatsapp:hover a {
+    color: white
+}
+
+@media screen and (max-width:39.9375em) {
+    .vs-float-button {
+        right: 12px
+    }
+}
+
+@media screen and (max-width:39.9375em) {
+    .on-phone {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+@media screen and (min-width:64em) {
+    .on-phone {
+        display: none
+    }
+}
+
+@media screen and (min-width:40em) and (max-width:63.9375em) {
+    .on-phone {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:39.9375em) {
+    .on-desktop {
+        display: none
+    }
+}
+
+@media screen and (min-width:64em) {
+    .on-desktop {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+@media screen and (min-width:40em) and (max-width:63.9375em) {
+    .on-desktop {
+        display: none
+    }
+}
+
+#phone {
+    position: fixed;
+    bottom: 24px;
+    left: 13px;
+}
